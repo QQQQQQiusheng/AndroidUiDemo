@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.tv_btn_demo:
                         imageView.setImageResource(R.mipmap.pic2);
                         Toast.makeText(MainActivity.this, edit_text, Toast.LENGTH_SHORT).show();
+                        //控制ProgressBar可见性
                       /*  if (progressBar.getVisibility() == View.GONE) {
                             progressBar.setVisibility(View.VISIBLE);
                         } else {
